@@ -1,0 +1,56 @@
+header {
+    font-size: 250%;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.input-container {
+    font-size: 150%;
+}
+
+.search {
+    margin-left: -300px;
+    
+}
+
+#search-city {
+    padding-left: 8px;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+}
+
+#search-btn {
+    background-color: lightblue;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 250px;
+    height: 35px;
+    font-size: 16px;
+}
+
+#search-btn:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.today {
+    border: 2px solid black;
+    padding-left: 8px;
+    text-align: left;
+}
+
+.forecast {
+    text-align: left;
+    margin-top: 8px;
+}
+
+h3 {
+    font-size: 22px;
+}
