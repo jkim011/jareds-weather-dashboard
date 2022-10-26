@@ -11,4 +11,4 @@ n/a
 ## Usage 
 
 ![](./assets/module6hw.PNG) <br>
-**Deploy application: ** 
+**Deploy application:** https://jkim011.github.io/jareds-weather-dashboard/
