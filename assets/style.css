@@ -40,17 +40,44 @@ header {
     font-weight: bold;
 }
 
+.hide {
+    display: none;
+}
+
 .today {
     border: 2px solid black;
     padding-left: 8px;
     text-align: left;
 }
 
-.forecast {
+.weather-top {
+    display: flex;
+    flex-direction: row;
+}
+
+#show-city,
+#show-date {
+    padding-right: 20px;
+}
+
+i {
+    padding-left: 20px;
+}
+
+.forecast-container {
     text-align: left;
-    margin-top: 8px;
+    margin-top: 15px;
 }
 
 h3 {
     font-size: 22px;
+    padding-bottom: 5px;
+}
+
+.forecast-boxes {
+    border: solid black 2px;
+    width: 228px;
+    padding-left: 8px;
+    margin-right: 25px;
+    display: flexbox;
 }
