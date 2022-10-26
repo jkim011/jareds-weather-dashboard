@@ -15,6 +15,7 @@
         <h1>Weather Dashboard</h1>
     </header>
 
+    <!-- User input section -->
     <div class="container text-center">
         <div class="row">
           <div class="col-lg-3 search">
@@ -23,20 +24,33 @@
             <br> 
             <button id="search-btn">Search</button>
             <hr style="width: 310px; margin-left: 0;">
-            <form id="history"></form>
+
+            <ul id="search-history" class="list-group">
+
+            </ul>
           </div>
           
+          <!-- Displays today's weather -->
           <div class="col">
-            <div class="today">
-                <h2 id="city">city</h2>
-                    <p id="temp">12</p>
-                    <p id="wind">12</p>
-                    <p id="humidity">12</p>
+            <div class="hide today">
+              <div id="todays-weather">
+                <div class="weather-top">
+                    <h2 id="show-city"></h2> 
+                    <h2 id="show-date"></h2>
+                    <img id="icon">
+                </div>
+                      <p id="show-temp"></p>
+                      <p id="show-wind"></p>
+                      <p id="show-humidity"></p>
+              </div>
             </div>
 
-            <div class="forecast">
+            <!-- Displays 5 day forecast -->
+            <div class="hide forecast-container">
                 <h3>5-Day Forecast: </h3>
-                <div id="five-days"></div>
+                <div id="five-days" style="display: flex;">
+                
+                </div>
             </div>
 
           </div>
@@ -44,8 +58,9 @@
     </div>
 
    
-
-    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/script.js"></script>
+
 </body>
 </html>
